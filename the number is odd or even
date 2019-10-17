@@ -1,0 +1,22 @@
+//Name- Deep Akash 
+//Roll No.- 19/BHP/009
+//Topic- To find the number is odd or even 
+#include<iostream>
+using namespace std;
+
+int main()
+{int number , remainder;
+cout<<"enter the number ";
+cin>>number;
+
+remainder = number%2;
+
+if(remainder==0)
+cout<<number<<" is an evean integer"<<endl;
+else
+ cout<<number<<" is an odd integer"<<endl;
+ 
+ cout <<"execute by Deep Akash";
+ return 0; 
+	
+}
